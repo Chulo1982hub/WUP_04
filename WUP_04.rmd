@@ -65,6 +65,17 @@ This data show that, the highest score average perfomance are Graduate and Bache
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+model1 <- aov(WORDSUM~DEGREE,data=GSS)
+summary.aov(model1)
+```
+
+The P=value 0.000236 which is less than 0.05 we reject the null hypothesis we can conclude there is some difference between the WORDSUM in DEGREE based on their level of education like the previus data shows Bachelor and Graduate tend to have the highest score compare to Highschool and LT high school.
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
 
 # Discussion and Conclusion
 
