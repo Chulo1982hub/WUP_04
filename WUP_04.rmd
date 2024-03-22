@@ -76,6 +76,7 @@ The P=value 0.000236 which is less than 0.05 we reject the null hypothesis we ca
 plot(TukeyHSD(model1))
 ```
 
+The biggest difference are between Graduates an High School and Bachelor an LT High School.
 
 # Discussion and Conclusion
 
