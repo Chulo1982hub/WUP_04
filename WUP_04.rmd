@@ -81,3 +81,7 @@ The biggest difference are between Graduates an High School and Bachelor an LT H
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The Discussion between WORDSUM and DEGREE the we sew on the data when we comparing WORDSUM scores to DEGREE levels, it's evident that there is a correlation between the two but it's not perfect. 
+Individuals can acquire language skills through various informal channels such as reading, exposure to diverse vocabulary, and engagement in intellectual discussions. Yes because you have Higher education its not the sole determinant.
+In conclusion,we could say while there is a correlation between WORDSUM scores and DEGREE levels, they represent distinct constructs. Other factor like enviroment, life experiences could play a big role so we have understand this nuances that is crucial.
