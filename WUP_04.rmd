@@ -44,7 +44,6 @@ boxplot(WORDSUM~DEGREE,data=GSS)
 
 This boxplot shows that the hight score are Bachelor,the second the graduate, and the third junior college on the other hand the ones that are lowest are high school and LT high school.
 
-
 ## Descriptive Results
 
 ### Graphical Descriptive Results
@@ -54,6 +53,13 @@ This boxplot shows that the hight score are Bachelor,the second the graduate, an
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+
+```{r}
+favstats(WORDSUM~DEGREE,data=GSS)
+```
+
+This data show that, the highest score average perfomance are Graduate and Bachelor.and the High School and LT high school have the lowest average performance.
 
 ## Inferential Results
 
