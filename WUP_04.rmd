@@ -11,6 +11,7 @@ output:
 require(knitr)
 require(tidyverse)
 require(tigerstats)
+GSS= read.csv("GSScsv.csv")
 
 ```
 
@@ -23,6 +24,17 @@ $H_0$ There is no difference between the average score on the WORDSUM test and l
 $H_a$ There is a significant difference in average score on the WORDSUM test between at least two levels of DEGREE  
 
 # Methods
+
+
+We are trying to predic the WORDSUM based on schooling DEGREE
+
+WORDSUM is numerical variable
+DEGREE is a categorical variable
+
+For this we are going to use Numerical~Cat helper file
+
+
+
 
 <!--Mention that you intend to use chatGPT to the greatest extent possible. Give credit to chatGPT when you use it to create code in your report. Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
