@@ -42,6 +42,9 @@ For this we are going to use Numerical~Cat helper file
 boxplot(WORDSUM~DEGREE,data=GSS)
 ```
 
+This boxplot shows that the hight score are Bachelor,the second the graduate, and the third junior college on the other hand the ones that are lowest are high school and LT high school.
+
+
 ## Descriptive Results
 
 ### Graphical Descriptive Results
